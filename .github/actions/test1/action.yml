@@ -1,0 +1,10 @@
+name: 'Hello World'
+description: 'Greet someone'
+runs:
+  using: "composite"
+  steps:
+    - run: echo Test1
+      shell: bash
+
+    - uses: ${ACTION_PATH}/test2
+      shell: bash
