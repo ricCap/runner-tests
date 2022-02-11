@@ -7,4 +7,3 @@ runs:
       shell: bash
 
     - uses: ${ACTION_PATH}/test2
-      shell: bash
