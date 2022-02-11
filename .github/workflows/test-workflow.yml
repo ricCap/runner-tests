@@ -6,4 +6,4 @@ jobs:
     name: A job to say hello
     steps:
       - uses: actions/checkout@v2
-      - uses: ./github/actions/test1
+      - uses: ./.github/actions/test1
