@@ -6,4 +6,4 @@ runs:
     - run: echo Test1
       shell: bash
 
-    - uses: ${ACTION_PATH}/test2
+    - uses: ${GITHUB_ACTION_PATH}/test2
