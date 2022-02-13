@@ -6,5 +6,6 @@ jobs:
       - self-hosted
     name: A job to say hello
     steps:
-      - uses: actions/checkout@v2
       - uses: riccap/runner-tests/.github/actions/test1@main
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/test1@
