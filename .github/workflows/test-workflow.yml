@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: riccap/runner-tests/.github/actions/test1@main
       - uses: actions/checkout@v2
-      - uses: ./.github/actions/test1@
+      - uses: ./.github/actions/test1
